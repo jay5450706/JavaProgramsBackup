@@ -1,6 +1,8 @@
 package anotherpackage;
 
 public class Caller implements Runnable{
+    private static final Object lock = new Object();
+    
     String msg;
     Callme target;
     Thread t;
@@ -12,6 +14,10 @@ public class Caller implements Runnable{
     }
 
     public void run(){
-        target.call(msg);
+
+        synchronized(lock){
+
+            target.call(msg);
+        }
     }
 }

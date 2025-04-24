@@ -3,8 +3,10 @@ package anotherpackage;
 public class Synchronize {
     public static void main(String[] args) {
         Callme target = new Callme();
+        Callme target2 = new Callme();
+        
         Caller ob1 = new Caller(target,"Hello");
-        Caller ob2 = new Caller(target, "Synchronized");
+        Caller ob2 = new Caller(target2, "Synchronized");
         Caller ob3 = new Caller(target, "World");
 
         ob1.t.start();

@@ -1,7 +1,8 @@
 package anotherpackage;
 
 class Callme {
-   synchronized void call (String msg){
+   // synchronized void call (String msg){
+   void call (String msg){
         System.out.print("[" + msg);
         try{
             Thread.sleep(1000);

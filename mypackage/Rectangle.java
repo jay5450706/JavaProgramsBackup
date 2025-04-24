@@ -37,7 +37,7 @@ public class Rectangle extends GeoObject {
     // }
 
     public String toString(){
-        return "Height= " + this.height + "Width= " + this.width + "Color= " + super.toString();
+        return "Height= " + this.height + " Width= " + this.width + " Color= " + super.toString();
     }
 
     @Override

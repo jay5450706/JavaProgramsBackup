@@ -237,9 +237,6 @@ public class Main /*implements Runnable*/ {
 //       String s = Integer.toBinaryString(number);
 //       
 //       System.out.println(s);
-       
-       //for example I have a class "MyClass" , this MyClass is an object of the class "Class" thus MyClass contains methods and fields of "Class". then we have another class in Java called Void, this class has an instance variable (I don't know if its final or static, you will clarify)  TYPE, continue explaining and critique my understanding
-
 
        ////////////////////////////////////////////////
        
